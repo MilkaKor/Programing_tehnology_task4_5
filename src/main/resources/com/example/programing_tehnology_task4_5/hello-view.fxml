@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="388.0" prefWidth="452.0" spacing="20.0" style="-fx-background-color: #ffe5f3;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.programing_tehnology_task4_5.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+
+    <BorderPane fx:id="borderPane" prefHeight="355.0" prefWidth="412.0">
+        <right>
+            <Button mnemonicParsing="false" onAction="#front_Button" style="-fx-background-color: #e9d2e0;" text="&gt;" BorderPane.alignment="CENTER" />
+        </right>
+        <center>
+        </center>
+        <left>
+            <Button mnemonicParsing="false" onAction="#back_Button" style="-fx-background-color: #e9d2e0;" text="&lt;" BorderPane.alignment="CENTER" />
+        </left>
+    </BorderPane>
+
+</VBox>
